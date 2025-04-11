@@ -1,28 +1,53 @@
-Live:- https://browserapis-pi.vercel.app/
-
-<img width="1680" alt="Screenshot 2025-04-11 at 8 29 03 PM" src="https://github.com/user-attachments/assets/f9f8b28e-948a-4892-b0d9-33b6495f870b" />
-
 # 🌐 Browser APIs Showcase
 
-A fun and interactive React app demonstrating browser capabilities such as:
+**🔴 Live Demo:** [https://browserapis-pi.vercel.app/](https://browserapis-pi.vercel.app/)
 
-- 🗣️ Text-to-Speech  
-- 🔔 Browser Notifications  
-- 📍 Geolocation + Reverse Geocoding (using OpenCage API)
-- 
+<img width="1680" alt="Screenshot 2025-04-11 at 9 09 24 PM" src="https://github.com/user-attachments/assets/73de27fa-16bf-4bb9-8d6f-ef6cab28133c" />
+
+
 ---
 
 ## 📦 Features
 
 ### 🗣️ Text to Speech
-Type anything, and your browser will read it out loud using the Web Speech API.
+- Type anything and your browser will read it out loud.
+- Powered by the **Web Speech API**.
+
+---
 
 ### 🔔 Browser Notification
-Send a native notification from the browser (requires user permission).
+- Send a native browser notification.
+- Works with the **Notification API** (requires user permission).
+
+---
 
 ### 📍 Find My Location
-- Uses `navigator.geolocation` to get your coordinates.
-- Reverse-geocodes your location using the [OpenCage Geocoder API](https://opencagedata.com/).
-- Displays latitude, longitude, and human-readable address.
+- Uses `navigator.geolocation` to get your current coordinates.
+- Reverse geocodes your location via the [OpenCage Geocoder API](https://opencagedata.com/).
+- Displays:
+  - 🌐 **Latitude & Longitude**
+  - 📍 **Human-readable address**
+
+---
+
+### 📷 Camera Access
+- Stream live video from your webcam using `navigator.mediaDevices.getUserMedia`.
+- Toggle **camera on/off** using buttons.
+
+---
+
+### 📡 Network & Device Info
+- Detects **online/offline** status using `navigator.onLine`.
+- Displays:
+  - 🔋 **Battery level & charging status** via the Battery Status API
+  - 🖥️ **Browser & device info** via `navigator.userAgent`
+
+---
+
+## 🛠️ Built With
+
+- React + Vite
+- Vanilla Browser APIs (Geolocation, MediaDevices, Notifications, SpeechSynthesis, etc.)
+- OpenCage Geocoder API
 
 ---
