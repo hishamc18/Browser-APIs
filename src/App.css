@@ -8,6 +8,7 @@ body {
 
 .app {
   display: flex;
+  flex-wrap: wrap;
   gap: 2rem;
   padding: 4rem;
   align-items: center;
@@ -30,8 +31,7 @@ body {
   border: 2px solid white;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
   text-align: center;
-  width: 100%;
-  max-width: 450px;
+  width: 400px;
   height: 30vh;
 }
 
@@ -88,7 +88,8 @@ body {
 @media (max-width: 768px) {
   .app {
     flex-direction: column;
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
+    flex-wrap: nowrap;
   }
 
   .card {
@@ -96,7 +97,6 @@ body {
     width: 100%;
     max-width: 100%;
     height: auto;
-    margin-bottom: 2rem;
   }
 
   .card input {
