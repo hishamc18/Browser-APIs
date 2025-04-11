@@ -52,11 +52,3 @@ A fun and interactive React app demonstrating various modern browser capabilitie
 - OpenCage Geocoder API
 
 ---
-
-## 📁 Getting Started
-
-```bash
-git clone https://github.com/your-username/browser-apis-showcase.git
-cd browser-apis-showcase
-npm install
-npm run dev
