@@ -1,32 +1,62 @@
-🌐 Browser APIs Showcase
+# 🌐 Browser APIs Showcase
 
-Live Demo: https://browserapis-pi.vercel.app/
+A fun and interactive React app demonstrating various modern browser capabilities!
 
-<img width="1680" alt="Screenshot 2025-04-11 at 9 09 24 PM" src="https://github.com/user-attachments/assets/afaf2027-3efb-4ab6-b0fc-eb1e9f3749d4" />
+**🔴 Live Demo:** [https://browserapis-pi.vercel.app/](https://browserapis-pi.vercel.app/)
 
-📦 Features
-🗣️ Text to Speech
-Type anything, and your browser will read it out loud using the Web Speech API.
+![Screenshot](https://github.com/user-attachments/assets/f9f8b28e-948a-4892-b0d9-33b6495f870b)
 
-🔔 Browser Notification
-Trigger a native browser notification (requires permission).
+---
 
-📍 Find My Location
-Uses navigator.geolocation to fetch your current coordinates.
+## 📦 Features
 
-Reverse-geocodes the location via the OpenCage Geocoder API.
+### 🗣️ Text to Speech
+- Type anything and your browser will read it out loud.
+- Powered by the **Web Speech API**.
 
-Displays your latitude, longitude, and a readable address.
+---
 
-📷 Camera Access
-Open and stream your webcam live inside the browser using getUserMedia.
+### 🔔 Browser Notification
+- Send a native browser notification.
+- Works with the **Notification API** (requires user permission).
 
-Toggle camera on/off with buttons.
+---
 
-📡 Network & Device Info
-Detects if the browser is online or offline using navigator.onLine.
+### 📍 Find My Location
+- Uses `navigator.geolocation` to get your current coordinates.
+- Reverse geocodes your location via the [OpenCage Geocoder API](https://opencagedata.com/).
+- Displays:
+  - 🌐 **Latitude & Longitude**
+  - 📍 **Human-readable address**
 
-Shows battery level and charging status using the Battery Status API.
+---
 
-Displays your browser & device details using navigator.userAgent.
+### 📷 Camera Access
+- Stream live video from your webcam using `navigator.mediaDevices.getUserMedia`.
+- Toggle **camera on/off** using buttons.
 
+---
+
+### 📡 Network & Device Info
+- Detects **online/offline** status using `navigator.onLine`.
+- Displays:
+  - 🔋 **Battery level & charging status** via the Battery Status API
+  - 🖥️ **Browser & device info** via `navigator.userAgent`
+
+---
+
+## 🛠️ Built With
+
+- React + Vite
+- Vanilla Browser APIs (Geolocation, MediaDevices, Notifications, SpeechSynthesis, etc.)
+- OpenCage Geocoder API
+
+---
+
+## 📁 Getting Started
+
+```bash
+git clone https://github.com/your-username/browser-apis-showcase.git
+cd browser-apis-showcase
+npm install
+npm run dev
