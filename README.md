@@ -2,7 +2,8 @@
 
 Live Demo: https://browserapis-pi.vercel.app/
 
-<img width="1680" alt="Screenshot 2025-04-11 at 8.29.03 PM" src="https://github.com/user-attachments/assets/f9f8b28e-948a-4892-b0d9-33b6495f870b" />
+<img width="1680" alt="Screenshot 2025-04-11 at 9 09 24 PM" src="https://github.com/user-attachments/assets/afaf2027-3efb-4ab6-b0fc-eb1e9f3749d4" />
+
 📦 Features
 🗣️ Text to Speech
 Type anything, and your browser will read it out loud using the Web Speech API.
