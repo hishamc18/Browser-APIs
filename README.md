@@ -1,10 +1,9 @@
 # 🌐 Browser APIs Showcase
 
-A fun and interactive React app demonstrating various modern browser capabilities!
-
 **🔴 Live Demo:** [https://browserapis-pi.vercel.app/](https://browserapis-pi.vercel.app/)
 
-![Screenshot](https://github.com/user-attachments/assets/f9f8b28e-948a-4892-b0d9-33b6495f870b)
+<img width="1680" alt="Screenshot 2025-04-11 at 9 09 24 PM" src="https://github.com/user-attachments/assets/73de27fa-16bf-4bb9-8d6f-ef6cab28133c" />
+
 
 ---
 
