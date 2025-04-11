@@ -20,7 +20,7 @@ const App = () => {
                         body: "Hope you are fine.",
                     });
                     notification.onclick = () => {
-                        window.open("http://localhost:5173");
+                        window.open("https://browserapis-pi.vercel.app/");
                     };
                 } else {
                     alert("Notification permission not granted.");
